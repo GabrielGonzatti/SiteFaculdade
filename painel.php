@@ -61,6 +61,16 @@ body {
 .box p {
     color: #666;
 }
+
+.deslogar{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 13px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
     </style>
 </head>
 
@@ -69,7 +79,7 @@ body {
     Bem vindo ao Painel, <?php echo $_SESSION['nome']; ?>.
 
     <p>
-        <a href="logout.php">Sair</a>
+        <a href="logout.php" class="deslogar">Sair</a>
     </p>
 
 </body>
