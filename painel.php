@@ -84,7 +84,7 @@ include('protect.php');
     <p>
         <a href="logout.php" class="deslogar">Sair</a>
     </p>
-    <a href="Sites/D&D.html" target="_blank">D&D World</a>
+    <a href="Páginas/D&D.html" target="_blank">D&D World</a>
     <!-- ATENÇÃO PARTE DE TESTE -->
 
 </body>
