@@ -36,7 +36,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
             header("Location: painel.php");
 
         } else {
-            echo "Falha ao logar! E-mail ou senha incorretos!";
+            echo "Falha ao logar! Login incorreto ou Usuário não cadastrado!";
         }
 
     }
@@ -50,74 +50,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-
-    
-    <style>
-    
-    body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-    form {
-    background-color: #fff;
-    padding: 30px; /* adicionado padding-top */
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-}
-
-    form h1 {
-    text-align: center;
-    margin-bottom: 30px; /* adicionado margin-bottom */
-}
-
-    form p {
-    margin-bottom: 10px;
-}
-
-    form label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-    form input {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-}
-
-    form button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 13px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-    form button:hover {
-    background-color: #0056b3;
-}
-
-.botao{
-        background-color: #007bff;
-        color: #fff;
-        padding: 9px 9px;
-        border: none;
-        border-radius: 3px;
-        cursor: pointer;
-        text-decoration: none;
-        
-    }
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -126,11 +59,11 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
     <form action="" method="POST">
         <p>
             <label>E-mail</label>
-            <input type="text" name="email">
+            <input type="text" name="email" required>
         </p>
         <p>
             <label>Senha</label>
-            <input type="password" name="senha">
+            <input type="password" name="senha" required>
         </p>
         <!-- ATENÇÃO PARTE DE TESTE -->
         <p>

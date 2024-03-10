@@ -20,7 +20,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $sql = "INSERT INTO usuarios (nome, email, senha) VALUES ('$nome', '$email', '$senha')";
         //Verifica se deu certo inclusão:
         if ($mysqli->query($sql) === TRUE) {
-            echo "Usuário cadastrado com sucesso!";
             header("Location: index.php");
         } else {
             echo "Erro ao cadastrar usuário: " . $mysqli->error;
@@ -58,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         width: 300px;
     }
-
+/* MUDAR A POSIÇÃO DO H1 -> CADASTRA-SE */
     form h1 {
         text-align: center;
         margin-bottom: 30px; /* adicionado margin-bottom */

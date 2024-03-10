@@ -10,14 +10,15 @@ include('protect.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painel</title>
 
-    <style>
-body {
+<style>
+
+    body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
 }
 
-.container {
+    .container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,22 +30,22 @@ body {
     max-width: 1200px;
 }
 
-.welcome {
+    .welcome {
     text-align: center;
     margin-bottom: 30px;
 }
 
-.welcome span {
+    .welcome span {
     color: #007bff;
 }
 
-.dashboard {
+    .dashboard {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.box {
+    .box {
     background-color: #f5f5f5;
     border-radius: 5px;
     padding: 20px;
@@ -53,16 +54,16 @@ body {
     margin-bottom: 20px;
 }
 
-.box h2 {
+    .box h2 {
     margin-bottom: 10px;
     color: #333;
 }
 
-.box p {
+    .box p {
     color: #666;
 }
 
-.deslogar{
+    .deslogar{
     background-color: #007bff;
     color: #fff;
     padding: 10px 13px;
@@ -75,12 +76,16 @@ body {
 </head>
 
 <body>
+    <!-- ATENÇÃO PARTE DE TESTE -->
 
     Bem vindo ao Painel, <?php echo $_SESSION['nome']; ?>.
-
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error minus libero voluptates quis quo fugiat omnis quidem dignissimos, corrupti exercitationem quia rem et, est vero eveniet facilis pariatur aperiam temporibus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur asperiores nam doloribus nobis est earum, quas optio. Ut tenetur sit porro eligendi, deleniti eveniet provident, possimus laudantium quia, esse ipsam.</p>
     <p>
         <a href="logout.php" class="deslogar">Sair</a>
     </p>
+    <a href="Sites/D&D.html" target="_blank">D&D World</a>
+    <!-- ATENÇÃO PARTE DE TESTE -->
 
 </body>
 </html>

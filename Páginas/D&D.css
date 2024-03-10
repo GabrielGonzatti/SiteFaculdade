@@ -1,0 +1,12 @@
+/* Criado uma classe raça para que modifique todas opções uma vez só */
+.raca{
+    background-color: #007bff;
+    color: #fff;
+    width: 2px;
+    padding: 9px 9px;
+    margin: 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
