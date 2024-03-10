@@ -1,4 +1,3 @@
-        <!-- ATENÇÃO PARTE DE TESTE -->
 
 <?php
 
@@ -38,73 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-
-    <style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-    }
-
-    form {
-        background-color: #fff;
-        padding: 30px; /* adicionado padding-top */
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        width: 300px;
-    }
-/* MUDAR A POSIÇÃO DO H1 -> CADASTRA-SE */
-    form h1 {
-        text-align: center;
-        margin-bottom: 30px; /* adicionado margin-bottom */
-    }
-
-    form p {
-        margin-bottom: 10px;
-    }
-
-    form label {
-        display: block;
-        margin-bottom: 5px;
-    }
-
-    form input {
-        width: 100%;
-        padding: 5px;
-        margin-bottom: 10px;
-        border: 1px solid #ddd;
-        border-radius: 3px;
-    }
-
-    form button {
-        background-color: #007bff;
-        color: #fff;
-        padding: 5px 10px;
-        border: none;
-        border-radius: 3px;
-        cursor: pointer;
-        list-style: none;
-    }
-
-    form button:hover {
-        background-color: #0056b3;
-    }
-
-    .botao{
-        background-color: #007bff;
-        color: #fff;
-        padding: 5px 10px;
-        border: none;
-        border-radius: 3px;
-        cursor: pointer;
-        list-style: none;
-    }
-    </style>
-
+    <link rel="stylesheet" href="cadastro.css">
 </head>
 <body>
     <h1>Cadastre-se</h1>
@@ -127,9 +60,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </p>
     </form>
     </label>
+    <?php
         if (isset($_GET['success'])) {
         echo '<div class="success-message">Usuário cadastrado com sucesso!</div>';
     }
+    ?>
 </body>
 </html>
-                <!-- ATENÇÃO PARTE DE TESTE -->
