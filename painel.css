@@ -1,11 +1,10 @@
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
+    margin: 0px;
+    background-color: #ffffff;
+    display: flex;
 }
-
-    .container {
+   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,22 +16,22 @@ body {
     max-width: 1200px;
 }
 
-    .welcome {
+.welcome {
     text-align: center;
     margin-bottom: 30px;
 }
 
-    .welcome span {
+.welcome span {
     color: #007bff;
 }
 
-    .dashboard {
+.dashboard {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-    .box {
+.box {
     background-color: #f5f5f5;
     border-radius: 5px;
     padding: 20px;
@@ -41,16 +40,16 @@ body {
     margin-bottom: 20px;
 }
 
-    .box h2 {
+.box h2 {
     margin-bottom: 10px;
     color: #333;
 }
 
-    .box p {
+.box p {
     color: #666;
 }
 
-    .deslogar{
+.deslogar{
     background-color: #007bff;
     color: #fff;
     padding: 10px 13px;
@@ -60,7 +59,7 @@ body {
     text-decoration: none;
 }
 
-    .dnd{
+.dnd{
         background-color: #007bff;
         color: #fff;
         padding: 10px 13px;
