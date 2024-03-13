@@ -1,6 +1,4 @@
-
 <?php
-
 // Conectar ao banco de dados
 include('conexao.php');
 

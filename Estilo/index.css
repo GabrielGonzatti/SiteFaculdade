@@ -7,7 +7,6 @@ body {
     height: 100vh;
     margin: 0;
 }
-
     form {
     background-color: #fff;
     padding: 30px; /* adicionado padding-top */
@@ -20,16 +19,13 @@ body {
     text-align: center;
     margin-bottom: 30px; /* adicionado margin-bottom */
 }
-
     form p {
     margin-bottom: 10px;
 }
-
     form label {
     display: block;
     margin-bottom: 5px;
 }
-
     form input {
     width: 100%;
     padding: 5px;
@@ -37,7 +33,6 @@ body {
     border: 1px solid #ddd;
     border-radius: 3px;
 }
-
     form button {
     background-color: #007bff;
     color: #fff;
@@ -46,11 +41,9 @@ body {
     border-radius: 3px;
     cursor: pointer;
 }
-
     form button:hover {
     background-color: #0056b3;
 }
-
 .botao{
         background-color: #007bff;
         color: #fff;
@@ -58,6 +51,5 @@ body {
         border: none;
         border-radius: 3px;
         cursor: pointer;
-        text-decoration: none;
-        
-    }
+        text-decoration: none;      
+}

@@ -1,70 +1,31 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0px;
     background-color: #ffffff;
-    display: flex;
+    height: 100vh;
+    margin: 0;
 }
-   .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 1200px;
-}
-
 .welcome {
     text-align: center;
     margin-bottom: 30px;
 }
-
 .welcome span {
     color: #007bff;
 }
-
-.dashboard {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.box {
-    background-color: #f5f5f5;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    flex-basis: calc(33.33% - 20px);
-    margin-bottom: 20px;
-}
-
-.box h2 {
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.box p {
-    color: #666;
-}
-
-.deslogar{
-    background-color: #007bff;
+.deslogar {
     color: #fff;
-    padding: 10px 13px;
     border: none;
-    border-radius: 3px;
     cursor: pointer;
     text-decoration: none;
+    background-color: #dad5d5;
+    color: #000000; /* mudança na cor do texto */
+    padding: 10px 20px; /* adiciona um padding interno ao link */
+    border-radius: 5px; /* arredonda as bordas do link */
 }
-
-.dnd{
-        background-color: #007bff;
-        color: #fff;
-        padding: 10px 13px;
-        border: none;
-        border-radius: 3px;
-        cursor: pointer;
-        text-decoration: none;
+.dnd {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #dad5d5;
+    color: #000000; /* mudança na cor do texto */
 }
