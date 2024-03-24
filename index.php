@@ -50,7 +50,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Acesse sua conta</h1>
@@ -72,5 +72,23 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
         <!-- ATENÇÃO PARTE DE TESTE -->
     </form>
     </label>
+
+    <script src="https://unpkg.com/blip-chat-widget" type="text/javascript"></script>
+
+    
+       <!-- PARTE DE SUPORTE PARA O CÓDIGO-->
+
+       <script src="https://unpkg.com/blip-chat-widget" type="text/javascript"></script>
+<script>
+    (function () {
+        window.onload = function () {
+            new BlipChat()
+                .withAppKey('Z29uemF0dGlib3Q6ODMxMDg5ZTMtYzc1Mi00OGEyLTkxYTQtNjZhZTA2MDFmYzNl')
+                .withButton({"color":"#0096fa","icon":""})
+                .withCustomCommonUrl('https://gabriel-gonzatti-ljiru.chat.blip.ai/')
+                .build();
+        }
+    })();
+</script>         
 </body>
 </html>

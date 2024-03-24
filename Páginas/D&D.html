@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D&D</title>
     <link rel="stylesheet" href="d&d.css">
+
+    </style>
 </head>
 <body>
     <h1>Sobre RPG Dungeons & Dragons D&D 🎲</h1 alt="Dado de RPG">
         <!-- INTRODUÇÃO AO MUNDO DE D&D -->
-    <h2>Introdução</h2>
+    <h2 class="into">Introdução</h2>
         <h3>O que é um RPG?</h3>
             <p> Um RPG é um jogo em que as pessoas interpretam seus personagens e criam narrativas que giram em torno de um enredo. No caso de um RPG de mesa(na maioria das vezes), cada uma dessas histórias é criada por uma pessoa que leva o nome de “mestre do jogo”.
             </p>
@@ -66,5 +68,20 @@
             </li>
     
         </ul>
+
+            <!-- PARTE DE SUPORTE PARA O CÓDIGO-->
+
+    <script src="https://unpkg.com/blip-chat-widget" type="text/javascript"></script>
+    <script>
+        (function () {
+            window.onload = function () {
+                new BlipChat()
+                    .withAppKey('Z29uemF0dGlib3Q6ODMxMDg5ZTMtYzc1Mi00OGEyLTkxYTQtNjZhZTA2MDFmYzNl')
+                    .withButton({"color":"#0096fa","icon":""})
+                    .withCustomCommonUrl('https://gabriel-gonzatti-ljiru.chat.blip.ai/')
+                    .build();
+            }
+        })();
+    </script>
 </body>
 </html>
