@@ -1,0 +1,37 @@
+/* Criado uma classe raça para que modifique todas opções uma vez só */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.sistema{
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    width: 2px;
+    padding: 4px;
+    margin: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.raca{
+    background-color: #007bff;
+    color: #fff;
+    width: 2px;
+    padding: 7px;
+    margin: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.img{ 
+    width: 250px
+
+}
+
+

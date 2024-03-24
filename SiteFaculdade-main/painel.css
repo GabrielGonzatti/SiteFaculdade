@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    height: 100vh;
+    margin: 0;
+}
+.welcome {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.welcome span {
+    color: #007bff;
+}
+.deslogar {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #dad5d5;
+    color: #000000; /* mudança na cor do texto */
+    padding: 10px 20px; /* adiciona um padding interno ao link */
+    border-radius: 5px; /* arredonda as bordas do link */
+}
+.dnd {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #dad5d5;
+    color: #000000; /* mudança na cor do texto */
+}
