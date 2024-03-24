@@ -1,27 +1,54 @@
 /* Criado uma classe raça para que modifique todas opções uma vez só */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 10px;
-    padding-bottom: 20px;
+    background-color: #ffffff;
+    height: 10vh;
+    margin: 0px;
+    background-position-x: center;
+    background-position-y: center;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .sistema{
     text-decoration: none;
+    background-color: #37383a;
+    color: #fff;
+    width: 2px;
+    padding: 4px;
+    margin: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .raca{
-    background-color: #007bff;
+    background-color: #37383a;
     color: #fff;
-    width: 2px;
-    padding: 9px;
-    margin: 15px;
+    padding: 10px;
+    margin: 6px;
     border: none;
-    border-radius: 3px;
+    border-radius: 12px;
     cursor: pointer;
     text-decoration: none;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+li{
+    margin: 5px;
 }
 
+.regras{
+    text-align: center;
+    height: 50px;
+    width: auto;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    background-color: #37383a;
+    color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+}
 /*
 
 OPA colegas, criem aqui um CSS para cada classe/raça e também uma configuração de background

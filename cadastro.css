@@ -39,7 +39,7 @@ form input {
 }
 
 form button {
-    background-color: #007bff;
+    background-color: #37383a;
     color: #fff;
     padding: 5px 10px;
     border: none;
@@ -49,11 +49,11 @@ form button {
 }
 
 form button:hover {
-    background-color: #0056b3;
+    background-color: #37383a;
 }
 
 .botao{
-    background-color: #007bff;
+    background-color: #37383a;
     color: #fff;
     padding: 5px 10px;
     border: none;

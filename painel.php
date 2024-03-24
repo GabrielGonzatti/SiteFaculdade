@@ -15,24 +15,18 @@ include('protect.php');
 <body>
     <!-- ATENÇÃO PARTE DE TESTE -->
     <h1 class="welcome">
-        Bem vindo ao Painel inicial dos RPG's, <?php echo $_SESSION['nome']; ?>.
+        <p>Bem vindo ao Painel inicial dos RPG's, <?php echo $_SESSION['nome']; ?>.</p>
     </h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error minus libero voluptates quis quo fugiat omnis quidem dignissimos, corrupti exercitationem quia rem et, est vero eveniet facilis pariatur aperiam temporibus.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur asperiores nam doloribus nobis est earum, quas optio. Ut tenetur sit porro eligendi, deleniti eveniet provident, possimus laudantium quia, esse ipsam.</p>
-
+    <p>Este site tem o intuíto de ajkudar aos iniciantes ao RPG se encontrarem, descobrirem sobre um dos jogos mais interativos, que constrói raciocínios e criativade.</p>
+    <p>Dungeons & Dragons, é um jogo de interpretação de papéis de alta fantasia criado por Gary Gygax e Dave Arneson. e publicado pela primeira vez em 1974 nos Estados Unidos pela TSR, Inc., empresa fundada por Gygax e Don Kay em 1973..</p>
+    <div class="img"></div>
     <h3>Quer saber mais sobre D&D e RPG's?
     <a href="Páginas/D&D.html" target="_blank" class="dnd">Clique aqui</a>
     <!-- ATENÇÃO PARTE DE TESTE -->
     </h3>
 
-    <footer>
-
-        <div>
+    <footer class="rodape">
             <a href="logout.php" class="deslogar">Clique aqui para Sair</a>
-        </div>
-
     </footer>
-
-    
 </body>
 </html>
