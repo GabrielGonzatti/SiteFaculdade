@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #fff;
+    /* cor de fundo */
+    height: 10vh;
+    margin: 0px;
+    background-position-x: center;
+    background-position-y: center;
+    /* overflow: hidden; Impede a rolagem de página */
+    max-width: 100%;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image:  url("https://i.pinimg.com/originals/87/b7/85/87b78546802feb1f2a3e7feb9e1b13e3.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Restante do seu CSS... */
+
+.into{
+    text-align: center;
+    
+    
+}
+.EstiloInto{
+    background-color: #37383a;
+    color: white;
+    border-radius: 2px;
+    margin: 0px;
+    padding: 15px;
+}
+.sistema{
+    text-decoration: none;
+    background-color: #37383a;
+    color: #fff;
+    width: 2px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.raca{
+    background-color: #37383a;
+    color: #fff;
+    padding: 10px;
+    margin: 0px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.classe {
+    background-color: #37383a;
+    color: #fff;
+    padding: 10px;
+    margin: 0px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+li{
+    margin: 5px;
+}
+p{
+    margin-left: 8px;  
+    color: #fff;
+}

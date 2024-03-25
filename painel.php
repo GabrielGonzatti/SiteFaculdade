@@ -9,7 +9,7 @@ include('protect.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painel dos RPG</title>
-    <link rel="stylesheet" href="painel.css">
+    <link rel="stylesheet" href="Estilo/menu.css">
 </head>
 
 <body>
@@ -21,10 +21,12 @@ include('protect.php');
     <p>Este site tem o intuíto de ajudar aos iniciantes ao RPG se encontrarem, descobrirem sobre um dos jogos mais interativos, que constrói raciocínios e criativade.</p>
     <p>Dungeons & Dragons, é um jogo de interpretação de papéis de alta fantasia criado por Gary Gygax e Dave Arneson. e publicado pela primeira vez em 1974 nos Estados Unidos pela TSR, Inc., empresa fundada por Gygax e Don Kay em 1973..</p>
     <div class="img"></div>
-    <h3>Quer saber mais sobre D&D e RPG's?
+    <section>
+    <h3 id="geral">Quer saber mais sobre D&D e RPG's?
     <a href="Páginas/D&D.html" target="_blank" class="dnd">Clique aqui</a>
     <!-- ATENÇÃO PARTE DE TESTE -->
     </h3>
+    </section>
 
     <footer class="rodape">
             <a href="logout.php" class="deslogar">Clique aqui para Sair</a>
