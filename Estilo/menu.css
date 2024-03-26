@@ -24,9 +24,7 @@ p {
     padding: 5px;
     color: #fff;
     font-size: x-large;
-
   }
-
   .welcome {
     text-align: center;
     height: 200px;
@@ -45,9 +43,9 @@ p {
 /* Show the logout button for authenticated users and move it to the bottom-left corner of the screen */
 .deslogar {
   display: block;
-  position: fixed;
-  left: 10px;
-  bottom: 50px;
+  position: absolute;
+  top: 80%;
+  left: 15%;
   padding: 15px;
   background-color: #333;
   color: #fff;

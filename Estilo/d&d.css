@@ -63,10 +63,19 @@ body {
     cursor: pointer;
     text-decoration: none;
 }
+
 li{
     margin: 5px;
 }
+
 p{
     margin-left: 8px;  
     color: #fff;
+}
+.rodape{
+    text-decoration: none;
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    text-align: left;
 }
