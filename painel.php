@@ -32,6 +32,8 @@ include('protect.php');
             <a href="logout.php" class="deslogar">Clique aqui para Sair</a>
     </footer>
 
+
+
     <!-- PARTE DE SUPORTE PARA O CÓDIGO-->
 
     <script src="https://unpkg.com/blip-chat-widget" type="text/javascript"></script>
@@ -45,7 +47,9 @@ include('protect.php');
                 .build();
         }
     })();
-</script>       
+</script>    
+
+
             
 </body>
 </html>
