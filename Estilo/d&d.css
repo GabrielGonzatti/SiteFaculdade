@@ -1,82 +1,89 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
+    color: #fff;
     /* cor de fundo */
     height: 10vh;
     margin: 0px;
     background-position-x: center;
     background-position-y: center;
+    /* overflow: hidden; Impede a rolagem de página */
     max-width: 100%;
-    overflow-x: hidden;
-    background-image: url("ttps://i.pinimg.com/originals/0f/ba/e2/0fbae2bd3a0bd45b0d6a25f6459d95a3.gif");
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image:  url("https://i.pinimg.com/originals/87/b7/85/87b78546802feb1f2a3e7feb9e1b13e3.gif");
     background-size: cover;
     background-position: center;
-    position: relative;
-    height: 100px;
-    padding: 50px;
-    margin: 15px;
-  }
-  p {
-    /* Adds a top and bottom margin of 20 pixels to the <p> tag. */
-    margin: 5px 0;
-    /* Adds a padding of 10 pixels to the <p> tag. */
-    padding: 5px;
-    color: #fff;
-    font-size: x-large;
-  }
-  .welcome {
+}
+
+/* Restante do seu CSS... */
+
+.into{
     text-align: center;
-    height: 200px;
-    width: auto;
-    margin-bottom: 30px;
-    margin-top: 0px;
+    
+    
+}
+.EstiloInto{
+    background-color: #37383a;
+    color: white;
+    border-radius: 2px;
+    margin: 0px;
+    padding: 15px;
+}
+.sistema{
+    text-decoration: none;
     background-color: #37383a;
     color: #fff;
-    padding: 25px;
-    border-radius: 30px;
-  }
-  .welcome > p{
-    padding-top: 80px;
-    text-align: center;
-  }
-  
-  
-  .dnd {
-    color: #fff;
+    width: 2px;
+    padding: 10px;
+    margin: 10px;
     border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.raca{
+    background-color: #37383a;
+    color: #fff;
+    padding: 10px;
+    margin: 0px;
+    border: none;
+    border-radius: 12px;
     cursor: pointer;
     text-decoration: none;
-    background-color: #dad5d5;
-    color: #000000; 
-    /* mudança na cor do texto */
-  }
-  /* Move the #geral element further down the page */
-  
-  /* Add a transition effect to the section element to make the image more attractive and interactive */
-  
-  #geral{
-  transition: transform 0.3s ease;
-  color: #fff;
-  text-align: center;
-  font-size: x-large;
-  }
-  #geral:hover {
-  transform: scale(1.1, 1.3);
-  }
-  .rodape{
+}
+.classe {
+    background-color: #37383a;
+    color: #fff;
+    padding: 10px;
+    margin: 0px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+p{
+    margin-left: 8px;  
+    color: #fff;
+}
+.deslogar {
+    display: block;
     position: absolute;
+    top: 80%;
+    left: 15%;
     padding: 15px;
     background-color: #333;
     color: #fff;
     border-radius: 10px;
     text-decoration: none;
+    width: fit-content;
     text-align: left;
+    position: relative;
+    bottom: 5%;
   }
-  .deslogar{
-    display: block;
-    padding: 15px;
-    background-color: #333;
-    color: #fff;
-    bottom: 10%;
-    left: 5%;
+  .rodape{
+    max-width: 100%;
+    overflow-x: hidden;
+    margin-top: 100px;
+    text-align: right;
   }
