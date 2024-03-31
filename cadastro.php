@@ -21,7 +21,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         } else {
             echo "Erro ao cadastrar usuário: " . $mysqli->error;
         }
-
         // Fechar conexão
         $mysqli->close();
     }
